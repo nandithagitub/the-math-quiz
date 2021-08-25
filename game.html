@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> The Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz.css">
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h4 id="math_player_1" style="color: brown;"></h4> <span id="math_score_1" style="color: blueviolet;"></span>
+    <br>
+    <h4 id="math_player_2" style="color: brown;"></h4> <span id="math_score_2" style="color: blueviolet;"></span>
+    <div class="container">
+        <center>
+            <h2 style="color: rosybrown"> The Math Quiz Game!</h2>
+            <h3 id="math_question"></h3>
+            <h3 id="math_answer"></h3>
+            <div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+            <label>Send you Question: <b style="color: salmon;">Try giving a harder & tricky question</b> </label>
+            <br>
+            <h3>Number 1</h3>
+            <br>
+            <input class="form-control" type="text" placeholder="Number 1" id="math_input_1">
+            <br>
+            <h3>Number 2</h3>
+            <br>
+            <input class="form-control" type="text" placeholder="Number 2" id="math_input_2">
+            <br>
+            <button class="btn btn-primary" onclick="send();" style="width: 30%;">Send</button>
+        </center>
+    </div>
+    <script src="game_page.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    background-image: url("math.png");
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-family: cursive;
+}
+.div1 , .div2 {
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+.btn-info {
+    width: 30%;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h3{
+    font-family: "MonteCarlo";
+    color: greenyellow;
+}
+h2{
+    font-family: "Courgette";
+}
+.user,.name{
+color: black;
+}
